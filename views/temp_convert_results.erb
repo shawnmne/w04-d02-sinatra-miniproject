@@ -1,0 +1,9 @@
+<h1>Results of Temperature Conversions</h1>
+	<p>You started with <%= @temperature %> degrees (<%= @units %>).</p> 
+	<p>This is equivalent to <%= convert_the_temp(@temperature, @units) %> degrees (<%= convert_the_unit(@units) %>).</p>
+	<p>
+		<a href="/temp-convert">Convert another temperature</a>
+	</p>
+	<p>
+		<a href="/home">Back Home</a>
+	</p>
